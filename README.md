@@ -1,57 +1,35 @@
-# Course Material and FAQ for my Advanced CSS Course
+# Advance CSS Course Notes
 
-This repo contains starter files and the finished project files for all the projects contained in the course.
+Advance CSS and Sass by Jonas Schmedtmann Course Notes
 
-Plus, I made all the course slides available for download, to make it easier to follow along the conceptual videos.
+## Table of Contents
 
-👇 ***Please read the following Frequently Asked Questions (FAQ) carefully before starting the course*** 👇
+<!-- TOC -->
 
-## FAQ
+- [Advance CSS Course Notes](#advance-css-course-notes)
+  - [Table of Contents](#table-of-contents)
+  - [Progress](#progress)
+  - [Section 01: Intro](#section-01-intro)
+  - [Section 02: Natours Project - Part 01](#section-02-natours-project---part-01)
 
-### Q1: How do I download the files?
+<!-- /TOC -->
 
-**A:** If you're new to GitHub and just want to download the complete package, hit the green button saying "Clone or download", choose the "Download ZIP" option, and you're good to go.
+## Progress
 
-### Q2: One of the NPM packages is not working (compiling Sass, live-reload, etc). How to fix it?
+- [X] ~~*Section 01*~~ [2018-06-17]
+- [ ] Section 02
+- [ ] Section 03
+- [ ] Section 04
+- [ ] Section 05
+- [ ] Section 06
+- [ ] Section 07
+- [ ] Section 08
+- [ ] Section 09
+- [ ] Section 10
 
-Unfortunately, this is quite common. I listed some possible fixes [in this document](npm-fixes.md).
+## Section 01: Intro
 
-### Q3: I'm stuck in one of the projects. Where do I get help?
+- Nothing of note, but I'm excited to skill up my CSS-fu.
 
-**A:** Have you extensively tried fixing the problem on your own? If you failed at fixing it, please **post a detailled description of the problem to the Q&A area of that video over at Udemy**, along with a [codepen](https://codepen.io/pen/) containing your code. You will get help as fast as possible! Please don't send me a personal message or email to fix coding problems.
+## Section 02: Natours Project - Part 01
 
-### Q4: You keep mentioning your resources page. Where can I find it?
-
-**A:** It's on my website at <http://codingheroes.io/resources>. You can subscribe for updates 😉
-
-### Q5: What VSCode theme are you using?
-
-**A:** I use Oceanic Next (dimmed bg) for all my coding and course production. [Here is my complete VSCode setup](vscode-setup.md).
-
-### Q6: You use codepens in some of the lectures. Where can I find them?
-
-**A:** They are all available on my [public codepen profile](https://codepen.io/jonasschmedtmann/pens/public/). The ones you're looking for might be buried under some newer ones.
-
-### Q7: can I see a final version of the course projects?
-
-**A:** Sure, I have an online version of all three. Here they are: [Natours](https://natours.netlify.com) (advanced CSS, Sass and responsive design), [Trillo](http://trillo.netlify.com/) (flexbox) and [Nexter](https://nexter.netlify.com/) (CSS Grid).
-
-### Q8: The videos don't load, can you fix it?
-
-**A:** Unfortunately, there is nothing I can do about it. The course is hosted on Udemy's platform, and sometimes they have small technical issues like this one. Please just come back a bit later or [contact their support team](https://support.udemy.com/hc/en-us). Also, don't forget to select the HD option in the video player.
-
-### Q9: Are the videos downloadable as well?
-
-**A:** Yes, I made all videos downloadable on the Udemy platform so you can learn even without an internet connection. To download a video, use the settings icon in the right bottom corner of the video player.
-
-### Q10: I love your courses and want to get updates on new courses. How?
-
-**A:** First, you can subscribe to my email list [at my website](http://codingheroes.io/newsletter). Plus, I make important announcements on twitter [@jonasschmedtman](https://twitter.com/jonasschmedtman), so you should definitely follow me there 🔥
-
-### Q11: Can I connect with your other students in some way?
-
-**A:** Yep, I thought about this! I started quite an active Discord chatroom for you to chat with other students, help each other out or just hang out with like-minded people. You can [join using this invite](https://discord.gg/0ocsLcmnIZqxMSYD).
-
-### Q12: How do I get my certificate of completion?
-
-**A:** A certificate of completion is provided by Udemy after you complete 100% of the course. After completing the course, just click on the small trophy icon on the course overview page. If you want to change your name on the certificate, please [contact the Udemy support team](https://support.udemy.com/hc/en-us).
