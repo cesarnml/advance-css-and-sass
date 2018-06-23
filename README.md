@@ -13,6 +13,7 @@ Advance CSS and Sass by Jonas Schmedtmann Course Notes
   - [Section 02: Natours Project - Part 01](#section-02-natours-project---part-01)
   - [Section 03: How CSS Works Behind the Scenes](#section-03-how-css-works-behind-the-scenes)
   - [Section 04: Introduction to SASS](#section-04-introduction-to-sass)
+  - [Section 05: Natours Project - Part 02](#section-05-natours-project---part-02)
 
 <!-- /TOC -->
 
@@ -21,7 +22,7 @@ Advance CSS and Sass by Jonas Schmedtmann Course Notes
 - [X] ~~*Section 01*~~ [2018-06-17]
 - [X] ~~*Section 02*~~ [2018-06-17]
 - [X] ~~*Section 03*~~ [2018-06-17]
-- [ ] Section 04
+- [X] ~~*Section 04*~~ [2018-06-23]
 - [ ] Section 05
 - [ ] Section 06
 - [ ] Section 07
@@ -237,3 +238,6 @@ color: $color;
 ```
 
 - Mixins copies styling code into the body of calling selector, while with extends the selector replaces the extend-selector
+
+## Section 05: Natours Project - Part 02
+
