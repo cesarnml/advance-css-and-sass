@@ -1,0 +1,26 @@
+//@ THE NEW HOTNESS WHEN IT COMES TO BROWSER RESETS
+//@ A *slightly* better way to implement border-box
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+//@ FONT INHERITANCE & REM 62.5% CSS Trick
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: $color-grey-dark;
+  padding: 3.0rem;
+  box-sizing: border-box;
+}
