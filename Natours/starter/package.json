@@ -1,0 +1,16 @@
+{
+  "name": "natours",
+  "version": "0.1.0",
+  "description": "Advance CSS and SASS by Jonas Schmedtmann",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass -w ./sass/main.scss ./css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}

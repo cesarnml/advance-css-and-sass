@@ -42,7 +42,7 @@ Advance CSS and Sass by Jonas Schmedtmann Course Notes
 ```css
 .element {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -125,7 +125,7 @@ Advance CSS and Sass by Jonas Schmedtmann Course Notes
   - With inheritance, child property values are inherited from parent's computed values
 - **Responsive Design Reset Tricks**
 
-```css
+```scss
 /* The NEW reset standard */
 *,
 *::before,
@@ -175,4 +175,65 @@ body {
   - Functions
   - Extends ➡️ fancy inheritance for selectors
   - Control directives
+  - Clearfix hack to prevent the GreatCollapse:
 
+```scss
+.clearfix::after {
+  content: '';
+  clear: both;
+  display:table;
+}
+```
+
+- SASS functions: `darken($color, 10%)` or `lighten($color, 10%)`
+
+- mixin: reusable piece of code for css styling (clearfix mixin below)
+
+```scss
+@mixin clearfix {
+  &::after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+}
+
+nav {
+  @include clearfix;
+}
+```
+
+- Mixins can take arguments:
+
+```scss
+@mixin style-link-text($color) {
+text-decoration: none;
+text-transform: uppercase;
+color: $color;
+}
+```
+
+- DRY Code: Don't Repeat Yourself
+
+- SASS functions:
+
+```scss
+@function divide($a, $b) {
+  @return $a / $b;
+}
+```
+
+- Extends (%):
+
+```scss
+%btn-placeholder {
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100px;
+  width: $width-button;
+  @include style-link-text($color-text-light)
+}
+```
+
+- Mixins copies styling code into the body of calling selector, while with extends the selector replaces the extend-selector
